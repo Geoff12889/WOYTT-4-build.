@@ -37,9 +37,35 @@ main {
     padding: 10px;
 }
 
+section {
+    margin: 10px 0px;
+}
+
+#hero img {
+    width: 100px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+h2 {
+    margin: 15px 0px;
+}
+
+section#parks {
+    clear: left;
+}
+
+article {
+    margin: 10px 0px;
+}
+
+main li {
+    margin-left: 30px;
+}
+
 footer {
     background-color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     padding: 10px;
