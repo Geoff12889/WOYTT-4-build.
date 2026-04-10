@@ -10,6 +10,39 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: wheat;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    border: 2px chocolate solid;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+nav li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
 }
 
 @media screen and (min-width: 600px) {
