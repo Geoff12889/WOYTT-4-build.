@@ -1,0 +1,27 @@
+/* CSS created by Geoffrey Woytt */
+
+/* Global Settings (Mobile First) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: wheat;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+        background-color: wheat;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: wheat;
+    }
+}
